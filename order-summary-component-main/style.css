@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 375px;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.btn {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 1.2rem 0;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: white;
+  background: hsl(245, 75%, 52%);
+  border: transparent;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.btn-negative {
+  color: hsl(224, 23%, 55%);
+  background: white;
+  box-shadow: 1px 2px 1px;
+  border: transparent;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.main-container {
+  width: 450px;
+  margin: 5rem auto;
+  background: white;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+}
+.img svg {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.second-container {
+  margin: 1.5rem 2.5rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+.second-container h1 {
+  text-transform: capitalize;
+  margin-bottom: 1.2rem;
+  color: hsl(223, 47%, 23%);
+}
+.second-container p {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 1.2rem;
+  color: hsl(224, 23%, 55%);
+}
+.music-container {
+  display: flex;
+
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.music-container svg {
+  margin-left: 1.5rem;
+}
+.prize {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.first-span {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+  margin-right: 6rem;
+}
+.second-span {
+  color: hsl(224, 23%, 55%);
+  margin-right: 6rem;
+}
+.change-span {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  text-transform: capitalize;
+  margin-right: 1rem;
+}
